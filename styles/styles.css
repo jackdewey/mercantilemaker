@@ -1,0 +1,8 @@
+#sunset {
+    background-image:url('../images/sunset.jpg');
+    background-size:contain;
+    background-repeat:none;
+    width:100%;
+    margin:0 auto;
+    height: 400px;
+}
