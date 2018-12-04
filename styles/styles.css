@@ -1,12 +1,20 @@
-.title {
-    display: block;
-    color: #fff;
+#hero {
+    margin: 0 auto;
+    width: 50%;
+    text-align:center;
 }
 
+.title {
+    
+    color: #fff;
+    text-align: center;
+}
+
+
 .button {  
-    position:relative;
+    /*position:relative;
     top:50%; 
-    left:40%;
+    left:40%; */
     background-color: #5f91dc;
     border: none;
     color: #fff;
@@ -14,7 +22,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 20px 2px;
+    margin: 0 auto;
     cursor: pointer;
     border-radius: 16px;
     font-size: 1em;
@@ -31,17 +39,7 @@
 .smp {
     display:block;
     background-color: #5f91dc;
-}
-
-.smptext {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    padding-bottom: 100px;
-    width: 70%;
-    max-width: 100%;
-    height: auto;
+    padding-bottom: 7%
 }
 
 .display {
@@ -78,7 +76,8 @@
 .title2 {
     display: block;
     color: #fff;
-    padding-top: 75px;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .title3 {
@@ -122,6 +121,18 @@ body {
   background-color: #333333;
 }
 
+.box1 {
+    float:left;
+    width:25%;
+    /*margin-left: 10%;
+    margin-right: 70%; */
+    margin: 0px 50px;
+}
+
+.clear {
+    clear:both;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -131,6 +142,16 @@ p {
     
     margin-right: 10%;
     margin-left: 10%;
+}
+
+.center_smp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20%
 }
 
 .center {
@@ -154,10 +175,11 @@ p {
 
 .center3 {
     display: block;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    margin-bottom: 5%;
+    width: 90%;
     max-width: 100%;
     height: auto;
 }
