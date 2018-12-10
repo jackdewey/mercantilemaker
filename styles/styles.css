@@ -129,6 +129,14 @@ body {
     margin: 0px 50px;
 }
 
+.box2 {
+    float:left;
+    width:25%;
+    /*margin-left: 10%;
+    margin-right: 70%; */
+    margin: 0px 50px;
+}
+
 .clear {
     clear:both;
 }
@@ -145,6 +153,16 @@ p {
 }
 
 .center_smp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20%
+}
+
+.center_check {
     display: block;
     margin-left: auto;
     margin-right: auto;
