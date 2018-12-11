@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Sophia Pro";
+    src: url('font.ttf');
+}
+
 #hero {
     margin: 0 auto;
     width: 50%;
